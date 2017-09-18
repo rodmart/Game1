@@ -47,6 +47,7 @@ void FixedUpdate()
 		if(count >= 18)
 		{
 			winText.text = "You Won!";
+			Application.LoadLevel("Menu");
 		}
 	}
 }

@@ -66,6 +66,7 @@ namespace UnityStandardAssets.Vehicles.Car
         	if(count >= 16)
         	{
         		winText.text = "You Win!!";
+                Application.LoadLevel("Menu");
         	}
         }
 
